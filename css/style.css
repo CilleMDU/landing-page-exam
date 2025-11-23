@@ -5,7 +5,7 @@
 }
 
 :root {
-  /* Farver */
+  /* Farver - pre exam */
   --pink-color:#D89F93;
   --white-color:#F3ECE3;
   --red-color:#7A1E2E;
@@ -14,7 +14,7 @@
   --hover-red:#5e1f1f;
   
 
-  /* Hover filter */
+  /* Hover filter - pre exam */
   --pink-filter: invert(61%) sepia(18%) saturate(551%) hue-rotate(327deg) brightness(92%) contrast(91%);
 
   --white-filter: invert(95%) sepia(11%) saturate(434%) hue-rotate(317deg) brightness(103%) contrast(91%);
@@ -34,14 +34,14 @@
   --font-size-hero-mobile:2.5rem;
   --font-size-hero: 4.5rem;
 
-  /* font weights */
+  /* font weights - pre exam */
   --font-weight-normal:400;
   --font-weight-medium:500;
   --font-weight-semi-bold:600;
   --font-weight-bold:700;
 }
 
-/* start på header og footer */
+/* start på header og footer - pre exam*/
 
 header {
   position: fixed;
@@ -282,12 +282,12 @@ footer {
   margin-top: 10px;
 }
 
-/* slut på header og footer */
+/* slut på header og footer - pre exam*/
 
 
-/* signe ting */
+/* signe ting - pre exam*/
 
-/* Sektioner efter Hero*/
+/* Sektioner efter Hero - pre exam*/
 
 
 /* Styling af banner */
@@ -312,7 +312,7 @@ footer {
 
 
 
-/* Rækker med billeder + tekst*/
+/* Rækker med billeder + tekst - pre exam*/
 .content-row{
  display: flex;
  justify-content: space-between;
@@ -328,7 +328,7 @@ footer {
 
 
 
-/*Tekstboks*/
+/*Tekstboks - pre exam*/
 .text-box{
  flex: 1;
  background-color: var(--light-pink);
@@ -361,7 +361,7 @@ footer {
 
 
 
-/* Billeder */
+/* Billeder - pre exam*/
 .product-image,
 .slide{
  flex: 1;
@@ -385,7 +385,7 @@ footer {
 
 
 
-/* Knapper*/
+/* Knapper - pre exam*/
 .btn{
  background-color: var(--red-color);
 color: var(--white-color);
@@ -403,7 +403,7 @@ align-self: flex-start;
 }
 
 
-/* Ikoner */
+/* Ikoner - pre exam */
 
 .ikon-section{
   display: flex;
@@ -435,7 +435,7 @@ align-self: flex-start;
 }
 
 
-/* Trustpilot sektionen*/
+/* Trustpilot sektionen - pre exam*/
 .tp-a article {
   display: flex;
   padding: 20px;
@@ -505,7 +505,7 @@ align-self: flex-start;
 }
 
 
-/*Liste over specifikationer*/
+/*Liste over specifikationer  - pre exam*/
 .liste {
   list-style: disc;
   list-style-position: outside;
@@ -551,7 +551,7 @@ align-self: flex-start;
   font-family: "anek odia";
 }
 
-/* hero ting please ikke slet når i merger ;(*/
+/* hero ting please ikke slet når i merger ;(  - pre exam*/
 
 
 
