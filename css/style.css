@@ -179,7 +179,7 @@ header {
   display: block;
 }
 
-/* Hero section */
+/* Hero section - exam */
 
 #hero-content {
   position: relative;
@@ -230,7 +230,7 @@ header {
   color: var(--background-color);
   font-weight: var(--font-weight-semi-bold);
   top: 35vh;
-  right: 1vw;
+  right: 12vw;
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.45);
   outline: 0.1rem solid rgba(42, 42, 42, 0.6);
 }
