@@ -247,3 +247,38 @@ header {
   background-color: var(--hover-red);
   cursor: pointer;
 }
+
+/* Color cards - exams */
+
+#cards {
+  background-color: var(--light-pink);
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 100vh;
+  padding: 2rem;
+}
+
+#vibe {
+  font-family: var(--font-family);
+  font-size: var(--font-size-xxl);
+  display: flex;
+  justify-content: center;
+  color: var(--text-black-color);
+  margin: 1rem;
+}
+
+#cards-img {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+#lavender:hover,
+#rose:hover,
+#sage:hover,
+#moonlight:hover {
+  cursor: pointer;
+  border: 0.3rem solid var(--text-black-color);
+  border-radius: 6rem;
+}
