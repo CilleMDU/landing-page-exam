@@ -387,3 +387,30 @@ header {
 #specs-img {
   margin-right: 3rem;
 }
+
+/* small infobar - exam */
+
+#small-info {
+  background-color: var(--background-color);
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  font-family: var(--font-family);
+  color: var(--text-black-color);
+  padding: 3rem;
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-medium);
+}
+
+#small-info-content {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#truck,
+#warranty,
+#return,
+#recycle {
+  text-align: center;
+}
