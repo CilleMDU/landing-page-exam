@@ -256,7 +256,7 @@ header {
   width: 100%;
   z-index: 1;
   top: 100vh;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 #vibe {
@@ -266,6 +266,7 @@ header {
   justify-content: center;
   color: var(--text-black-color);
   margin: 1rem;
+  padding: 1rem;
 }
 
 #cards-img {
@@ -291,4 +292,62 @@ header {
   cursor: pointer;
   border: 0.2rem solid var(--text-black-color);
   box-shadow: 0 4px 5px 3px rgba(0, 0, 0, 0.50) inset;
+}
+
+/* Social connect - exam */
+
+#social-connect {
+  background-color: var(--background-color);
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 158.9vh;
+  font-family: var(--font-family);
+  color: var(--text-black-color);
+  padding: 3rem;
+}
+
+#playlists {
+  font-family: var(--font-family);
+  font-size: var(--font-size-xxl);
+  display: flex;
+  justify-content: center;
+  color: var(--text-black-color);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#apps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 20vh;
+  left: 73vw;
+  z-index: 2;
+  gap: 2rem;
+}
+
+#app-descript {
+  font-size: var(--font-size-xl);
+  padding: 1rem;
+  text-align: center;
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--text-black-color);
+}
+
+#app-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+#apple,
+#google {
+  cursor: pointer;
+}
+
+#social-connect-img {
+  border-radius: 1rem;
 }
