@@ -55,7 +55,7 @@ html {
 /* Header - exam */
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -183,12 +183,11 @@ header {
 
 #hero-content {
   position: relative;
-  top: 15rem;
 }
 
 #hero-picture {
   width: 100%;
-  height: 83vh;
+  height: 100%;
   z-index: 1;
 }
 
@@ -252,10 +251,9 @@ header {
 
 #cards {
   background-color: var(--light-pink);
-  position: absolute;
+  position: relative;
   width: 100%;
   z-index: 1;
-  top: 100vh;
   padding: 3rem;
 }
 
@@ -298,10 +296,9 @@ header {
 
 #social-connect {
   background-color: var(--background-color);
-  position: absolute;
+  position: relative;
   width: 100%;
   z-index: 1;
-  top: 158.9vh;
   font-family: var(--font-family);
   color: var(--text-black-color);
   padding: 3rem;
@@ -332,7 +329,7 @@ header {
   font-size: var(--font-size-xl);
   padding: 1rem;
   text-align: center;
-  font-weight: var(--font-weight-semi-bold);
+  font-weight: var(--font-weight-medium);
   color: var(--text-black-color);
 }
 
@@ -350,4 +347,43 @@ header {
 
 #social-connect-img {
   border-radius: 1rem;
+}
+
+/* Specifications - exam */
+
+#specs {
+  background-color: var(--light-pink);
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  font-family: var(--font-family);
+  color: var(--text-black-color);
+  padding: 3rem;
+}
+
+#specs-title {
+  font-family: var(--font-family);
+  font-size: var(--font-size-xxl);
+  display: flex;
+  justify-content: center;
+  color: var(--text-black-color);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#specs-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#specs-list {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-xxl);
+  margin-left: 10rem;
+  font-family: var(--font-family);
+}
+
+#specs-img {
+  margin-right: 3rem;
 }
