@@ -43,8 +43,9 @@
   /* Farver dark mode - made foor exam purpose and not prior to the exam */
 
   --night-white: #ECEDE2;
-  --main-night-purple: #271D36;
+  --main-night-purple: #220C35;
   --night-light-purple: #3F2B50;
+  --night-second-dark: #271D36;
 }
 
 /* Everything from here has been made for exam purpose. Nothing was made prior to it */
@@ -337,7 +338,6 @@ header {
   font-size: var(--font-size-xxl);
   display: flex;
   justify-content: center;
-  color: var(--text-black-color);
   margin: 1rem;
   padding: 1rem;
 }
@@ -355,7 +355,6 @@ header {
   padding: 1rem;
   text-align: center;
   font-weight: var(--font-weight-medium);
-  color: var(--text-black-color);
 }
 
 #app-icons {
@@ -391,7 +390,6 @@ header {
   font-size: var(--font-size-xxl);
   display: flex;
   justify-content: center;
-  color: var(--text-black-color);
   margin: 1rem;
   padding: 1rem;
 }
@@ -420,25 +418,16 @@ header {
   position: relative;
   width: 100%;
   z-index: 1;
-  font-family: var(--font-family);
-  color: var(--text-black-color);
   padding: 3rem;
-  font-size: var(--font-size-xxl);
-  font-weight: var(--font-weight-medium);
 }
 
 #small-info-content {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 4rem;
 }
 
-#truck,
-#warranty,
-#return,
-#recycle {
-  text-align: center;
-}
 
 /* Footer */
 
@@ -521,3 +510,139 @@ footer {
 
 /* darkmode */
 
+@media (prefers-color-scheme: dark) {
+
+  /* Header */
+
+  header {
+    background-color: var(--main-night-purple);
+  }
+
+  #menu-lines {
+    content: url(../img/menu-bar-img/night-menu.svg);
+  }
+
+  #menu-lines:hover {
+    content: url(../img/menu-bar-img/night-menu-hover.svg);
+  }
+
+  #search-icon {
+    content: url(../img/search-lenses-img/night-search.svg);
+  }
+
+  #search-icon:hover {
+    content: url(../img/search-lenses-img/night-search-hover.svg);
+  }
+
+  #profile-icon {
+    content: url(../img/profiles-img/night-profile.svg);
+  }
+
+  #profile-icon:hover {
+    content: url(../img/profiles-img/night-profile-hover.png);
+  }
+
+  #basket-icon {
+    content: url(../img/baskets-img/night-basket.svg);
+  }
+
+  #basket-icon:hover {
+    content: url(../img/baskets-img/night-basket-hover.svg);
+  }
+
+  #logo {
+    content: url(../img/logos-img/night-logo.svg);
+  }
+
+  #search-bar-input {
+  background-color: var(--night-white);
+  border: 0.2rem solid var(--night-light-purple);
+  color: var(--night-light-purple);
+  }
+
+  #search-bar-input::placeholder {
+  color: var(--night-light-purple);
+  }
+
+  /* Hero section */
+
+  #hero {
+    background-image: url(../img/rose-night-hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #buy-btn {
+    color: var(--text-black-color);
+    background-color: var(--night-white);
+  }
+
+  #buy-btn:hover {
+    background-color: #A9AB9E;
+  }
+
+  /* Color section */
+
+  #cards {
+    background-color: var(--night-second-dark);
+  }
+
+  #vibe {
+    color: var(--night-white);
+  }
+
+  #lavender:hover,
+  #rose:hover,
+  #sage:hover,
+  #moonlight:hover {
+  border: 0.2rem solid #ECEDE2;
+  }
+
+  /* social connect */
+
+  #social-connect {
+    background-color: var(--night-light-purple);
+    color: var(--night-white);
+  }
+
+  /* Specs */
+
+  #specs {
+    color: var(--night-white);
+    background-color: var(--night-second-dark);
+  }
+
+  /* Little info bar */
+
+  #small-info {
+    background-color: var(--night-light-purple);
+  }
+
+  #truck {
+    content: url(../img/icons-info/night-truck.svg);
+  }
+
+  #warranty {
+    content: url(../img/icons-info/night-shield.svg);
+  }
+
+  #return {
+    content: url(../img/icons-info/night-return.svg);
+  }
+
+  #recycle {
+    content: url(../img/icons-info/night-recycle.svg);
+  }
+
+  /* footer */
+
+  footer {
+    color: var(--night-white);
+    background-color: var(--main-night-purple);
+  }
+
+  #trust-icon {
+    content: url(../img/some-icons/trust-rank-night.svg);
+  }
+}
