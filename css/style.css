@@ -40,19 +40,21 @@
   --font-weight-semi-bold:600;
   --font-weight-bold:700;
 
-  /* Farver dark mode - exam */
+  /* Farver dark mode - made foor exam purpose and not prior to the exam */
 
   --night-white: #ECEDE2;
   --main-night-purple: #271D36;
   --night-light-purple: #3F2B50;
 }
 
-/* rem 10px=1rem - exam*/
+/* Everything from here has been made for exam purpose. Nothing was made prior to it */
+
+/* rem 10px=1rem */
 html {
   font-size: 62.5%;
 }
 
-/* Header - exam */
+/* Header */
 
 header {
   position: sticky;
@@ -71,7 +73,7 @@ header {
   padding-right: 2rem;
 }
 
-/* Header icons hover and display - exam */
+/* Header icons hover and display */
 
 #header-icons {
   display: flex;
@@ -86,25 +88,25 @@ header {
 
 #menu-lines:hover {
   cursor: pointer;
-  content: url(../img/menu-bar-img/hover-menu.png);
+  content: url(../img/menu-bar-img/hover-menu.svg);
   transition: 0.3ms ease;
 }
 
 #basket-icon:hover {
   cursor: pointer;
-  content: url(../img/baskets-img/basket-hover.png);
+  content: url(../img/baskets-img/basket-hover.svg);
   transition: 0.3ms ease;
 }
 
 #search-icon:hover {
   cursor: pointer;
-  content: url(../img/search-lenses-img/search-hover.png);
+  content: url(../img/search-lenses-img/search-hover.svg);
   transition: 0.3ms ease;
 }
 
 #profile-icon:hover {
   cursor: pointer;
-  content: url(../img/profiles-img/profile-hover.png);
+  content: url(../img/profiles-img/profile-hover.svg);
   transition: 0.3ms ease;
 }
 
@@ -112,7 +114,7 @@ header {
   margin-left: 6rem;
 }
 
-/* navbar - exam */
+/* navbar */
 
 #menu-drop {
   display: none;
@@ -149,7 +151,7 @@ header {
   color: var(--background-color);
 }
 
-/* searchbar - exam */
+/* searchbar */
 
 #search-field {
   display: flex;
@@ -179,7 +181,7 @@ header {
   display: block;
 }
 
-/* Hero section - exam */
+/* Hero section */
 
 #hero-content {
   position: relative;
@@ -247,7 +249,7 @@ header {
   cursor: pointer;
 }
 
-/* Color cards - exams */
+/* Color cards */
 
 #cards {
   background-color: var(--light-pink);
@@ -292,7 +294,7 @@ header {
   box-shadow: 0 4px 5px 3px rgba(0, 0, 0, 0.50) inset;
 }
 
-/* Social connect - exam */
+/* Social connect */
 
 #social-connect {
   background-color: var(--background-color);
@@ -349,7 +351,7 @@ header {
   border-radius: 1rem;
 }
 
-/* Specifications - exam */
+/* Specifications */
 
 #specs {
   background-color: var(--light-pink);
@@ -388,7 +390,7 @@ header {
   margin-right: 3rem;
 }
 
-/* small infobar - exam */
+/* small infobar */
 
 #small-info {
   background-color: var(--background-color);
@@ -413,4 +415,83 @@ header {
 #return,
 #recycle {
   text-align: center;
+}
+
+/* Footer */
+
+footer {
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: relative;
+  background-color: var(--main-pink-color);
+  z-index: 1000;
+  width: 100%;
+  box-shadow:0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-family: var(--font-family);
+  color: var(--text-black-color);
+}
+
+#cont-add {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+  align-items: flex-start;
+}
+
+#cont-flex {
+  display: flex;
+  gap: 10rem;
+}
+
+#follow-title,
+#address-title,
+#contact-title {
+  font-size: var(--font-size-large);
+}
+
+#trust-text,
+#contact-text,
+#address-text {
+  font-size: medium;
+}
+
+#contact-text a {
+  text-decoration: none;
+  color: var(--background-color);
+}
+
+#trust-follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+#trustpilot {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+#trust-text {
+  margin-top: 1rem;
+}
+
+#some-icons {
+  display: flex;
+  gap: 2.5rem;
+}
+
+#facebook,
+#instagram,
+#tiktok {
+  cursor: pointer;
 }
