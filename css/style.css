@@ -186,18 +186,17 @@ header {
 
 /* Hero section */
 
-
-#hero-content {
+#hero {
   position: relative;
-  overflow: hidden;
-  height: auto;
-}
-
-#hero-picture {
+  height: 85vh;
   width: 100%;
-  height: auto;
-  display: block;
-  z-index: 1;
+  background-image: url(../img/lavender-beach.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10rem 20rem;
 }
 
 #hero-info {
@@ -216,12 +215,9 @@ header {
 }
 
 #hero-items {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
-  top: 10vh;
-  right: 8vw;
-  max-width: 100%;
 }
 
 #buy-btn {
@@ -523,4 +519,5 @@ footer {
   cursor: pointer;
 }
 
-/* @Media responsive design */
+/* darkmode */
+
