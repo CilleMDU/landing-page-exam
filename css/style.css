@@ -234,14 +234,15 @@ header {
   right: 12vw;
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.45);
   outline: 0.1rem solid rgba(42, 42, 42, 0.6);
-}
-
-#buy-text {
   text-shadow: 0.1rem 0.1rem 0 rgba(42,42,42,0.5),
   -0.1rem 0.1rem 0 rgba(42,42,42,0.5),
   0.1rem -0.1rem 0 rgba(42,42,42,0.5),
   -0.1rem -0.1rem 0 rgba(42,42,42,0.5);
-  margin-top: 1rem;
+}
+
+#buy-btn span {
+  position: relative;
+  top: 0.5rem;
 }
 
 #buy-btn:hover {
@@ -495,3 +496,5 @@ footer {
 #tiktok {
   cursor: pointer;
 }
+
+/* dark mode */
