@@ -55,6 +55,14 @@ html {
   font-size: 62.5%;
 }
 
+/* Img reponsiveness */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Header */
 
 header {
@@ -197,7 +205,7 @@ header {
   background-repeat: no-repeat;
   display: flex;
   justify-content: flex-end;
-  padding: 10rem 20rem;
+  padding: 10rem 15rem;
 }
 
 #hero-info {
@@ -524,6 +532,17 @@ footer {
 
   #menu-lines:hover {
     content: url(../img/menu-bar-img/night-menu-hover.svg);
+  }
+
+  .menu-content-link {
+    background-color: var(--night-light-purple);
+    color: var(--night-white);
+    border: 0.2rem solid var(--night-second-dark);
+  }
+
+  .menu-content-link:hover {
+    background-color: var(--night-white);
+    color: var(--text-black-color);
   }
 
   #search-icon {
