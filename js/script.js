@@ -4,12 +4,12 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-const animatedSections = document.querySelectorAll(".animate");
+const rightSections = document.querySelectorAll(".animate");
 
 // Scroll animation code. Observer triggers when item is 30% within view
 // InterSectionObserver observes when a section is overlapping with the viewpoint
 
-const observer = new IntersectionObserver(
+const observerRight = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -25,8 +25,26 @@ const observer = new IntersectionObserver(
   }
 );
 
-animatedSections.forEach((section) => observer.observe(section));
+rightSections.forEach((section) => observerRight.observe(section));
 
+const leftSections = document.querySelectorAll(".animate-left");
+
+const observerLeft = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("in-view");
+      } else {
+        entry.target.classList.remove("in-view");
+      }
+    });
+  },
+  {
+    threshold: 0.3,
+  }
+);
+
+leftSections.forEach((section) => observerLeft.observe(section));
 
 const scrollUp = document.getElementById("upBtn");
 

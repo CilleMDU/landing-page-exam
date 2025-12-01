@@ -697,12 +697,23 @@ footer {
 /* Animations */
 
 .animate {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: opacity .8s ease, transform .8s ease;
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity .8s ease, transform .8s ease;
 }
 
 .animate.in-view {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translate(0);
+}
+
+.animate-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity .8s ease, transform .8s ease;
+}
+
+.animate-left.in-view {
+  opacity: 1;
+  transform: translate(0);
 }
