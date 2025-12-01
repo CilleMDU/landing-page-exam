@@ -55,6 +55,7 @@ html {
   font-size: 62.5%;
   letter-spacing: 0.3rem;
   font-family: var(--font-family);
+  overflow-x: hidden;
 }
 
 /* Img reponsiveness */
@@ -716,4 +717,747 @@ footer {
 .animate-left.in-view {
   opacity: 1;
   transform: translate(0);
+}
+
+/* Responsive design */
+
+/* Tablet/Large screens: 1024px - 1440px */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  
+  /* Header adjustments */
+  header {
+    padding: 1rem 2rem;
+    gap: 2rem;
+  }
+
+  #header-icons {
+    gap: 3rem;
+  }
+
+  #header-icons img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  #menu-lines {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  #logo-icon {
+    max-width: 31rem;
+  }
+
+  /* scroll up btn */
+
+  #upBtn {
+    width: 10rem;
+  }
+
+  /* Hero section adjustments */
+  #hero {
+    height: 75vh;
+    padding: 8rem 10rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #hero-info {
+    font-size: 2.8rem;
+  }
+
+  #buy-btn {
+    width: 17rem;
+    height: 5.5rem;
+    font-size: 3.5rem;
+  }
+
+  /* Color cards - reduce from 4 columns */
+  #cards-img {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  #lavender,
+  #rose,
+  #sage,
+  #moonlight {
+    padding-top: 14px;
+  }
+
+  /* Social connect adjustments */
+  #items-social-connect {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  #social-connect-img {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  /* Specifications adjustments */
+  #specs-flex {
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  #specs-list {
+    font-size: var(--Font-size-small);
+  }
+
+  #specs-img {
+    margin-right: 0;
+    max-width: 450px;
+    width: 100%;
+  }
+
+  /* Small info bar - reduce to 2 columns */
+  #small-info-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 750px;
+    margin: 0 auto;
+    justify-items: center;
+  }
+
+  #truck,
+  #warranty,
+  #return,
+  #recycle {
+    max-width: 213px;
+  }
+
+  /* Footer adjustments */
+  footer {
+    padding: 2rem 4rem;
+  }
+
+  #cont-flex {
+    gap: 5rem;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #cont-add {
+    flex-direction: row;
+    gap: 3rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  #trust-follow {
+    align-items: center;
+  }
+
+#follow-title,
+#address-title,
+#contact-title {
+  font-size: var(--Font-size-medium);
+}
+
+#follow-text,
+#address-text,
+#contact-text,
+#trust-text {
+  font-size: var(--font-size-small);
+}
+
+  /* Font size adjustments for tablet */
+  #vibe,
+  #playlists,
+  #specs-title {
+    font-size: var(--font-size-xl);
+  }
+
+  #specs-list {
+    font-size: var(--font-size-xl);
+  }
+
+  /* Menu adjustments */
+  .menu-content-link {
+    font-size: var(--font-size-large);
+    padding: 1.5rem;
+  }
+}
+
+/* Tablet/Medium screens: 768px - 1024px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  /* Header adjustments */
+  header {
+    padding: 0.8rem 1.5rem;
+    gap: 1rem;
+  }
+
+  #header-icons {
+    gap: 2rem;
+  }
+
+  #header-icons img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #menu-lines {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #logo-icon {
+    max-width: 28rem;
+  }
+
+  /* scroll up btn */
+
+  #upBtn {
+    width: 8rem;
+  }
+
+  /* Hero section adjustments */
+  #hero {
+    height: 65vh;
+    padding: 10rem 15rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #hero-info {
+    font-size: 2.4rem;
+  }
+
+  #buy-btn {
+    width: 16rem;
+    height: 5rem;
+    font-size: 3.2rem;
+  }
+
+  /* Color cards - 2 columns */
+  #cards-img {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+
+  #lavender,
+  #rose,
+  #sage,
+  #moonlight {
+    padding-top: 11px;
+  }
+
+  /* Social connect adjustments */
+  #items-social-connect {
+    gap: 2rem;
+  }
+
+  #app-descript {
+    font-size: var(--font-size-large);
+  }
+
+  #social-connect-img {
+    max-width: 500px;
+    width: 100%;
+  }
+
+  #apple,
+  #google {
+    max-width: 300px;
+  }
+
+  /* Specifications adjustments */
+  #specs-flex {
+    gap: 2rem;
+    align-items: center;
+  }
+
+  #specs-list {
+    font-size: var(--font-size-large);
+  }
+
+  #specs-img {
+    margin-right: 0;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  /* Small info bar - 2 columns */
+  #small-info-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 550px;
+    margin: 0 auto;
+    justify-items: center;
+  }
+
+  #truck,
+  #warranty,
+  #return,
+  #recycle {
+    max-width: 198px;
+  }
+
+  /* Footer adjustments */
+  footer {
+    padding: 2rem 2rem;
+  }
+
+  #cont-flex {
+    gap: 3rem;
+    align-items: center;
+  }
+
+  #cont-add {
+    flex-direction: row;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  #trust-follow {
+    align-items: center;
+  }
+
+#follow-title,
+#address-title,
+#contact-title {
+  font-size: var(--Font-size-medium);
+}
+
+#follow-text,
+#address-text,
+#contact-text,
+#trust-text {
+  font-size: var(--font-size-small);
+}
+
+#some-icons {
+    max-width: 8rem;
+    justify-content: center;
+  }
+
+  #trust-icon {
+    max-width: 10rem;
+  }
+
+  /* Font size adjustments */
+  #vibe,
+  #playlists,
+  #specs-title {
+    font-size: var(--font-size-large);
+  }
+
+  #follow-title,
+  #address-title,
+  #contact-title {
+    font-size: var(--font-size-base);
+  }
+
+  /* Menu adjustments */
+  .menu-content-link {
+    font-size: var(--font-size-xl);
+    padding: 1.2rem;
+  }
+}
+
+/* Small phones/Landscape tablets: 480px - 768px */
+@media (min-width: 480px) and (max-width: 767px) {
+  
+  /* Header adjustments */
+  header {
+    padding: 0.8rem 1rem;
+    gap: 0.5rem;
+  }
+
+  #header-icons {
+    gap: 1.5rem;
+  }
+
+  #header-icons img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  #menu-lines {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  #logo-icon {
+    max-width: 24rem;
+  }
+
+    /* scroll up btn */
+
+  #upBtn {
+    width: 6rem;
+  }
+
+  /* Hero section adjustments */
+  #hero {
+    height: 55vh;
+    padding: 8rem 12rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #hero-info {
+    text-align: center;
+    font-size: var(--Font-size-medium);
+  }
+
+  #buy-btn {
+    width: 14rem;
+    height: 4.5rem;
+    font-size: 2.5rem;
+  }
+
+  /* Color cards - 1 column */
+  #cards-img {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  #lavender,
+  #rose,
+  #sage,
+  #moonlight {
+    padding-top: 9px;
+  }
+
+  /* Social connect adjustments */
+  #items-social-connect {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  #social-connect-img {
+    max-width: 550px;
+  }
+
+  #app-icons {
+    flex-wrap: wrap;
+  }
+
+  #apple,
+  #google {
+    max-width: 120px;
+  }
+
+  /* Specifications adjustments */
+  #specs-flex {
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  #specs-list {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+  }
+
+  #specs-img {
+    max-width: 200px;
+    width: 100%;
+  }
+
+  /* Small info bar - 2 columns */
+  #small-info-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: 350px;
+    margin: 0 auto;
+    justify-items: center;
+  }
+
+  #truck,
+  #warranty,
+  #return,
+  #recycle {
+    max-width: 178px;
+  }
+
+  /* Footer adjustments */
+  footer {
+    padding: 1.5rem 1.5rem;
+  }
+
+  #cont-flex {
+    gap: 2rem;
+    align-items: center;
+  }
+
+  #cont-add {
+    gap: 1.5rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #trust-follow {
+    align-items: center;
+  }
+
+  #some-icons {
+    gap: 1.5rem;
+    max-width: 3rem;
+    justify-content: center;
+  }
+
+  #trust-icon {
+    max-width: 3rem;
+  }
+
+  #address-text,
+  #contact-text,
+  #trust-text {
+    font-size: 1rem;
+  }
+
+  /* Font size adjustments */
+  #vibe,
+  #playlists,
+  #specs-title {
+    font-size: var(--font-size-xl);
+  }
+
+  #follow-title,
+  #address-title,
+  #contact-title {
+    font-size: var(--font-size-base);
+  }
+
+  #app-descript {
+    font-size: var(--font-size-base);
+  }
+
+  /* Menu adjustments */
+  .menu-content-link {
+    font-size: var(--font-size-large);
+    padding: 1rem;
+  }
+
+  /* Cards section padding */
+  #cards {
+    padding: 2rem 1rem;
+  }
+
+  #social-connect {
+    padding: 2rem 1rem;
+  }
+
+  #specs {
+    padding: 2rem 1rem;
+  }
+
+  #small-info {
+    padding: 2rem 1rem;
+  }
+}
+
+/* Mobile phones: below 480px */
+@media (max-width: 479px) {
+  
+  /* Header adjustments */
+  header {
+    padding: 0.6rem 0.8rem;
+    gap: 0.3rem;
+  }
+
+  #header-icons {
+    gap: 1.2rem;
+  }
+
+  #header-icons img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #menu-lines {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #logo-icon {
+    max-width: 20rem;
+  }
+
+  /* scroll up btn */
+
+  #upBtn {
+    width: 4rem;
+  }
+
+  /* Hero section adjustments */
+  #hero {
+    height: 50vh;
+    padding: 3rem 1rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #hero-info {
+    font-size: var(--Font-size-small);
+    text-align: center;
+  }
+
+  #buy-btn {
+    width: 13rem;
+    height: 4.2rem;
+    font-size: 2rem;
+  }
+
+  /* Color cards - 1 column */
+  #cards-img {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  #lavender,
+  #rose,
+  #sage,
+  #moonlight {
+    padding-top: 8px;
+  }
+
+  /* Social connect adjustments */
+  #items-social-connect {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #social-connect-img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #app-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #apple,
+  #google {
+    max-width: 80px;
+  }
+
+  #app-descript {
+    font-size: var(--font-size-small);
+    padding: 0.5rem;
+  }
+
+  /* Specifications adjustments */
+  #specs-flex {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  #specs-list {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+  }
+
+  #specs-img {
+    margin-right: 0;
+    max-width: 150px;
+    width: 100%;
+  }
+
+  /* Small info bar - 1 column */
+  #small-info-content {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 280px;
+    margin: 0 auto;
+    justify-items: center;
+  }
+
+  #truck,
+  #warranty,
+  #return,
+  #recycle {
+    max-width: 163px;
+  }
+
+  /* Footer adjustments */
+  footer {
+    padding: 1rem 1rem;
+  }
+
+  #cont-flex {
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #cont-add {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  #trust-follow {
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  #some-icons {
+    gap: 1rem;
+  }
+
+  #some-icons img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  /* Font size adjustments */
+  #vibe,
+  #playlists,
+  #specs-title {
+    font-size: var(--font-size-large);
+  }
+
+  #follow-title,
+  #address-title,
+  #contact-title {
+    font-size: var(--font-size-base);
+  }
+
+  #trust-text,
+  #contact-text,
+  #address-text {
+    font-size: 1.2rem;
+  }
+
+  /* Menu adjustments */
+  .menu-content-link {
+    font-size: var(--font-size-xl);
+    padding: 1rem;
+  }
+
+  /* Sections padding */
+  #cards {
+    padding: 1.5rem 0.8rem;
+  }
+
+  #social-connect {
+    padding: 1.5rem 0.8rem;
+  }
+
+  #specs {
+    padding: 1.5rem 0.8rem;
+  }
+
+  #small-info {
+    padding: 1.5rem 0.8rem;
+  }
 }
