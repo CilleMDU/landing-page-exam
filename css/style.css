@@ -1276,8 +1276,8 @@ footer {
   }
 
   #menu-lines {
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
   }
 
   #logo-icon {
@@ -1309,11 +1309,11 @@ footer {
     font-size: 2rem;
   }
 
-  /* Color cards - 1 column */
+  /* Color cards - 2x2 grid */
   #cards-img {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    max-width: 140px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 300px;
     margin: 0 auto;
   }
 
