@@ -1293,7 +1293,7 @@ footer {
   /* Hero section adjustments */
   #hero {
     height: 50vh;
-    padding: 3rem 1rem;
+    padding: 2rem 0.8rem;
     background-size: cover;
     background-position: center;
   }
@@ -1304,7 +1304,7 @@ footer {
   }
 
   #buy-btn {
-    width: 13rem;
+    width: 11rem;
     height: 4.2rem;
     font-size: 2rem;
   }
@@ -1331,7 +1331,7 @@ footer {
   }
 
   #social-connect-img {
-    max-width: 100%;
+    max-width: 90%;
     width: 100%;
   }
 
@@ -1358,7 +1358,7 @@ footer {
   }
 
   #specs-list {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     font-size: 1rem;
     font-weight: 600;
   }
@@ -1387,7 +1387,7 @@ footer {
 
   /* Footer adjustments */
   footer {
-    padding: 1rem 1rem;
+    padding: 0.8rem 0.8rem;
   }
 
   #cont-flex {
