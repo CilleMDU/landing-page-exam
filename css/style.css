@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+* {
+  outline: 1px solid red;
+}
+
 :root {
   /* Farver - pre exam */
   --main-pink-color: #d89f93;
