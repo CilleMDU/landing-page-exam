@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
-* {
-  outline: 1px solid red;
+html, body {
+  background: red;
 }
+main, section, div, img {
+  background: transparent;
+}
+
 
 :root {
   /* Farver - pre exam */
