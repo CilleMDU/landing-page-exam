@@ -5,12 +5,9 @@
 }
 
 html, body {
-  background: red;
+  max-width: 100%;
+  overflow-x: hidden;
 }
-main, section, div, img {
-  background: transparent;
-}
-
 
 :root {
   /* Farver - pre exam */
@@ -1301,7 +1298,7 @@ footer {
   /* Hero section adjustments */
   #hero {
     height: 50vh;
-    padding: 2rem 0.8rem;
+    padding: 4rem 1.2rem;
     background-size: cover;
     background-position: center;
   }
