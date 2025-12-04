@@ -63,14 +63,4 @@ scrollUp.addEventListener("click", ()=> {
     });
 });
 
-
-
-
-
-
-
-
-
-
-
 });
