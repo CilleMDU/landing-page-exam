@@ -1,3 +1,4 @@
+/* reset style */
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@
 }
 
 :root {
-  /* Farver - pre exam */
+  /* Farver */
   --main-pink-color: #d89f93;
   --background-color: #f3ece3;
   --main-red-color: #7a1e2e;
@@ -13,7 +14,7 @@
   --light-pink: #ebbbb2;
   --hover-red: #5e1f1f;
 
-  /* Hover filter - pre exam */
+  /* Hover filter */
   --pink-filter: invert(61%) sepia(18%) saturate(551%) hue-rotate(327deg)
     brightness(92%) contrast(91%);
 
@@ -26,6 +27,7 @@
   --black-filter: invert(8%) sepia(0%) saturate(1011%) hue-rotate(243deg)
     brightness(102%) contrast(78%);
 
+  /* Fonts */
   --font-family: "Anek Odia", "Inter", Sans-serif;
   --font-size-small: 1.3rem;
   --font-size-base: 1.6rem;
@@ -37,13 +39,13 @@
   --font-size-hero-mobile: 2.5rem;
   --font-size-hero: 4.5rem;
 
-  /* font weights - pre exam */
+  /* font weights*/
   --font-weight-normal: 400;
   --font-weight-medium: 500;
   --font-weight-semi-bold: 600;
   --font-weight-bold: 700;
 
-  /* Farver dark mode - made foor exam purpose and not prior to the exam */
+  /* Farver dark mode */
 
   --night-white: #ecede2;
   --main-night-purple: #220c35;
@@ -51,7 +53,6 @@
   --night-second-dark: #271d36;
 }
 
-/* Everything from here has been made for exam purpose. Nothing was made prior to it */
 
 /* rem 10px=1rem */
 html {
