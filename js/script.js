@@ -6,8 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const rightSections = document.querySelectorAll(".animate");
 
-// Scroll animation code. Observer triggers when item is 30% within view
-// InterSectionObserver observes when a section is overlapping with the viewpoint
+// Scroll animation code
 
 const observerRight = new IntersectionObserver(
   (entries) => {
@@ -45,6 +44,9 @@ const observerLeft = new IntersectionObserver(
 );
 
 leftSections.forEach((section) => observerLeft.observe(section));
+
+
+// Scroll up button code
 
 const scrollUp = document.getElementById("upBtn");
 
