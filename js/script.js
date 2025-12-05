@@ -1,12 +1,12 @@
 "use strict";
 
-// Everything is coded for exam purposes. Nothing is pre exam
+// Alt er kodet til eksamen og ikke til den originale opgave
 
 document.addEventListener("DOMContentLoaded", () => {
 
 const rightSections = document.querySelectorAll(".animate");
 
-// Scroll animation code
+// Scroll animation kode højre
 
 const observerRight = new IntersectionObserver(
   (entries) => {
@@ -25,6 +25,8 @@ const observerRight = new IntersectionObserver(
 );
 
 rightSections.forEach((section) => observerRight.observe(section));
+
+// Scroll animation kode venstre
 
 const leftSections = document.querySelectorAll(".animate-left");
 
@@ -46,7 +48,7 @@ const observerLeft = new IntersectionObserver(
 leftSections.forEach((section) => observerLeft.observe(section));
 
 
-// Scroll up button code
+// Scroll up knap kode
 
 const scrollUp = document.getElementById("upBtn");
 
