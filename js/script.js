@@ -2,8 +2,11 @@
 
 // Alt er kodet til eksamen og ikke til den originale opgave
 
+// DOMContentLoaded for at sikre at DOM er loadet før script kører
+
 document.addEventListener("DOMContentLoaded", () => {
 
+  
 const rightSections = document.querySelectorAll(".animate");
 
 // Scroll animation kode højre
