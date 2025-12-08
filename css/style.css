@@ -177,10 +177,13 @@ header {
   border: 0.2rem solid var(--main-red-color);
   padding: 1rem;
   color: var(--main-red-color);
+  width: 25rem;
+  font-size: var(--font-size-base);
 }
 
 #search-bar-input::placeholder {
   color: var(--main-red-color);
+  font-size: var(--font-size-base);
 }
 
 #search-bar-check:checked ~ #search-bar-input {
