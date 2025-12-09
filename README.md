@@ -6,8 +6,8 @@ I den originale kode havde jeg designet header og footer.
 Selvom at alle dele er blevet redigeret i så er de største ændringer som følger disse:
 1: Cards
 2: Dark mode
-3: JS - I sammenhæng med animationer og scroll up knap
-4: Animationer
+3: JS - I sammenhæng med scroll animationer og scroll up knap
+4: Scroll animationer
 5: Scroll up knap
 
 Rækkefølgen stemmer overens med vigtigheden af disse tilføjelser som ingen var en del af den originale kode eller del af layoutet. Derfor er disse fem de største optimeringer af koden.
