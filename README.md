@@ -6,7 +6,7 @@ I den originale kode havde jeg designet header og footer.
 Selvom at alle dele er blevet redigeret i så er de største ændringer som følger disse:
 1: Cards
 2: Dark mode
-3: JS
+3: JS - I sammenhæng med animationer og scroll up knap
 4: Animationer
 5: Scroll up knap
 
